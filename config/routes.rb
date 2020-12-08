@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'artists/show'
+
+  get 'artists/index'
+
   get 'songs/show'
 
   get 'songs/index'
